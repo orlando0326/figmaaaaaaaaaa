@@ -13,18 +13,19 @@ body {
 
 p {
     color: #9fabb2;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
 .hero {
     min-height: 100vh;
     padding: 130px 32px 60px;
-    background: url("img/Bitmap 2.png") top center / 100% 420px no-repeat;
+    background: url("img/Bitmap 2.png") 
+    top center / 100% 420px no-repeat;
 }
 
 .logo {
-    width: 142px;
+    width: 242px;
     margin-bottom: 72px;
 }
 
@@ -72,16 +73,28 @@ h2 { font-size: 28px; margin-bottom: 20px; }
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     align-items: center;
-    gap: 45px;
+    gap: 60px;
 }
 
-.recursos img, .access img { width: 100%; }
+.recursos img, .access img { 
+    width: 100%; 
+}
 
-.lista { display: grid; gap: 40px; }
+.lista {
+     display: 
+     grid; 
+     gap: 40px;
+
+ }
 h3 { font-size: 20px; margin-bottom: 10px; }
 
-.access { padding-top: 50px; }
-.access img { max-width: 750px; margin: 40px auto 0; }
+.access {
+     padding-top: 50px;
+ }
+.access img { 
+    max-width: 750px;
+     margin: 40px auto 0; 
+    }
 
 
 
@@ -129,12 +142,12 @@ h3 { font-size: 20px; margin-bottom: 10px; }
 }
 
 .marcas {
-    padding: 60px 24px;
+    padding: 100px 24px;
 }
 .marcas img {
     display: block;
-    width: 100%;
-    max-width: 860px;
+    width: 1700px;
+    max-width: 8060px;
     margin: auto;
 }
 
@@ -155,7 +168,7 @@ h3 { font-size: 20px; margin-bottom: 10px; }
 .botoes-final {
     flex-direction: row;
     justify-content: center;
-    gap: 12px;
+    gap: 100%;
 }
 .botoes-final a {
     font-size: 14px;
